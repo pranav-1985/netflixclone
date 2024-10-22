@@ -274,6 +274,9 @@ input[type="radio"]{
 
 .container {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .container h2 {
@@ -295,12 +298,10 @@ input[type="radio"]{
 }
 
 .movie-grid {
-    display: grid;
-    grid-template-columns: repeat(7,.5fr);
+    display: flex;
+    align-items: center;
     gap: 15px;
-    max-width: 1400px;
     justify-content: center;
-    padding-left: 100px;
 }
 .grid-head{
     margin-left: 100px;
@@ -310,6 +311,8 @@ input[type="radio"]{
 .movie-card {
     position: relative;
     overflow: hidden;
+    width: 200px;
+    height: 300px;
 }
 
 .movie-card img {
