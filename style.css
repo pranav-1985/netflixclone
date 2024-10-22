@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background: #000;
-    color: #fff;
+    background: #000 !important;
+    color: #fff !important;
 }
 .header{
     width: 100%;
@@ -87,7 +87,7 @@ nav button{
     /* Ensure the arrow does not interfere with clicks */
     color: #fffefe;
     /* Optional: Customize arrow color */
-    font-size: 10px;
+    font-size: 8px;
     /* Adjust size as needed */
 }
 
@@ -141,7 +141,7 @@ select {
     border: 0;
     outline: 0;
     width: 350px;
-    height: 50px;
+    height: 60px;
     margin-left: 20px;
     margin-right: 10px;
     font-size: 16px;
@@ -272,7 +272,7 @@ input[type="radio"]{
 }
 
 
-.container {
+.container1 {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -280,7 +280,7 @@ input[type="radio"]{
     
 }
 
-.container h2 {
+.container1 h2 {
     margin-bottom: 10px;
 }
 
@@ -362,14 +362,13 @@ input[type="radio"]{
 
 .reason {
     background: linear-gradient(135deg, #32135bc7, #2b052fb6);
-    padding: 20px;
+    padding: 10px 10px;
     width: 23%;
     border-radius: 10px;
 }
 
 .reason svg{
     margin-left: 180px;
-    padding-top: 20px;
     margin-top: 30px;
 }
 
