@@ -372,6 +372,10 @@ input[type="radio"]{
     margin-top: 30px;
 }
 
+.end-reg{
+    margin-top: 200px;
+}
+
 /* ----------------footer----------------- */
 .footer{
     padding: 50px 15% 10px;
