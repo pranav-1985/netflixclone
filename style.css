@@ -276,7 +276,8 @@ input[type="radio"]{
     padding: 20px;
     display: flex;
     flex-direction: column;
-
+    margin-left: 20px;
+    
 }
 
 .container h2 {
@@ -298,10 +299,12 @@ input[type="radio"]{
 }
 
 .movie-grid {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(8,.5fr);
+    gap: 18px;
+    width: 90%;
     justify-content: center;
+    margin-left: 100px;
 }
 .grid-head{
     margin-left: 100px;
@@ -311,8 +314,6 @@ input[type="radio"]{
 .movie-card {
     position: relative;
     overflow: hidden;
-    width: 200px;
-    height: 300px;
 }
 
 .movie-card img {
@@ -320,6 +321,14 @@ input[type="radio"]{
     display: block;
 }
 
+.arrow{
+    background-color: #303030;
+    width: 20px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
 .overlay {
     position: absolute;
     bottom: 0;
